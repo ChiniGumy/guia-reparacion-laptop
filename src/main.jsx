@@ -21,34 +21,34 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />
     },
     {
-        path: '/guia-reparacion-laptop/cargador',
+        path: '/cargador',
         element: <Charger />
     },
     {
-        path: '/guia-reparacion-laptop/disco-duro',
+        path: '/disco-duro',
         element: <Hdd />
     },    {
-        path: '/guia-reparacion-laptop/memoria-ram',
+        path: '/memoria-ram',
         element: <Ram />
     },    {
-        path: '/guia-reparacion-laptop/bateria',
+        path: '/bateria',
         element: <Battery />
     },    {
-        path: '/guia-reparacion-laptop/inverter',
+        path: '/inverter',
         element: <Inverter />
     },    {
-        path: '/guia-reparacion-laptop/display',
+        path: '/display',
         element: <Display />
     },    {
-        path: '/guia-reparacion-laptop/disipador',
+        path: '/disipador',
         element: <Disipador />
     },
     {
-        path: '/guia-reparacion-laptop/fan',
+        path: '/fan',
         element: <Fan />
     },
     {
-        path: '/guia-reparacion-laptop/mainboard',
+        path: '/mainboard',
         element: <Mobo />
     },
 ]);
