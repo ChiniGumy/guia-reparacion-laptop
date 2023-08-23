@@ -14,9 +14,9 @@ import Fan from './routes/Fan.jsx';
 import Mobo from './routes/Mobo.jsx';
 import Hdd from './routes/HDD.jsx';
 
-const router = createBrowserRouter([
+const routes = [
     {
-        path: '/guia-reparacion-laptop/',
+        path: '/',
         element: <App />,
         errorElement: <ErrorPage />
     },
@@ -50,8 +50,10 @@ const router = createBrowserRouter([
     {
         path: '/mainboard',
         element: <Mobo />
-    },
-]);
+    }
+]
+
+const router = createBrowserRouter(routes, { basename: import.meta.env.DEV ? '/' : '/guia-reparacion-laptop/' })
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
