@@ -16,39 +16,39 @@ import Hdd from './routes/HDD.jsx';
 
 const router = createBrowserRouter([
     {
-        path: '/',
+        path: '/guia-reparacion-laptop/',
         element: <App />,
         errorElement: <ErrorPage />
     },
     {
-        path: '/cargador',
+        path: '/guia-reparacion-laptop/cargador',
         element: <Charger />
     },
     {
-        path: '/disco-duro',
+        path: '/guia-reparacion-laptop/disco-duro',
         element: <Hdd />
     },    {
-        path: '/memoria-ram',
+        path: '/guia-reparacion-laptop/memoria-ram',
         element: <Ram />
     },    {
-        path: '/bateria',
+        path: '/guia-reparacion-laptop/bateria',
         element: <Battery />
     },    {
-        path: '/inverter',
+        path: '/guia-reparacion-laptop/inverter',
         element: <Inverter />
     },    {
-        path: '/display',
+        path: '/guia-reparacion-laptop/display',
         element: <Display />
     },    {
-        path: '/disipador',
+        path: '/guia-reparacion-laptop/disipador',
         element: <Disipador />
     },
     {
-        path: '/fan',
+        path: '/guia-reparacion-laptop/fan',
         element: <Fan />
     },
     {
-        path: '/mainboard',
+        path: '/guia-reparacion-laptop/mainboard',
         element: <Mobo />
     },
 ]);

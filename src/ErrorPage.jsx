@@ -7,7 +7,7 @@ function ErrorPage() {
             <h1 className="text-6xl font-bold text-[#ececee]">Oops!</h1>
             <p className="text-xl mt-6 text-[#adb0b7]">Parece que no hay guia para solucionar esto...</p>
 
-            <Link to='/' className="text-[#4d95de] mt-10 text-xl transition-all hover:text-[#67adf3]">
+            <Link to='/guia-reparacion-laptop/' className="text-[#4d95de] mt-10 text-xl transition-all hover:text-[#67adf3]">
                 Volver
             </Link>
 
